@@ -4,34 +4,36 @@ import { Autoplay, Pagination } from 'swiper';
 
 const testimonials = [
     {
-        img: '/assets/images/testimonial/testimonial-05.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Ray Sanchez',
-        title: 'Student'
+    img: '/assets/images/testimonial/testimonial-05.png',
+    desc: 'המילים לא יכולות לתאר כמה אני מרוצה! הקורס הזה שינה לי את החיים לטובה. אני ממליץ בחום לכולם!',
+    ratings: [1, 2, 3, 4, 5],
+    name: 'ריי סאנצ׳ז',
+    title: 'תלמיד'
     },
     {
-        img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Thomas Lopez',
-        title: 'Designer'
+    img: '/assets/images/testimonial/testimonial-06.png',
+    desc: 'אני מתרגש מהיכולת היצירתית שלי שהתפתחה במהלך הקורס. אני יודע שיש לי עוד הרבה ללמוד, אבל אני מוכן להתמודד עם זה!',
+    ratings: [1, 2, 3, 4, 5],
+    name: 'תומס לופז',
+    title: 'מעצב'
     },
     {
-        img: '/assets/images/testimonial/testimonial-07.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Amber Page',
-        title: 'Developer'
+    img: '/assets/images/testimonial/testimonial-07.png',
+    desc: 'אני מרגיש מאוד מקודש להיות חלק מקהילה של פיתוח. הקורס עזר לי לפתח את היכולות הטכניות שלי ואני מאוד מודה על זה.',
+    ratings: [1, 2, 3, 4, 5],
+    name: 'אמבר פייג',
+    title: 'מפתחת'
     },
     {
-        img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Thomas Lopez',
-        title: 'Designer'
+    img: '/assets/images/testimonial/testimonial-06.png',
+    desc: 'המילים לא יכולות לתאר כמה אני מרוצה! הקורס הזה שינה לי את החיים לטובה. אני ממליץ בחום לכולם!',
+    ratings: [1, 2, 3, 4, 5],
+    name: 'תומס לופז',
+    title: 'מעצב'
     }
-];
+    ];
+    
+    
 
 const TestimonialArea = () => {
     const [loop, setLoop] = useState(false);

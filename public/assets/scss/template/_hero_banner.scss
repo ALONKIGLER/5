@@ -5,6 +5,7 @@
     min-height: 660px;
     display: flex;
     align-items: center;
+    direction: rtl;
 
     @media #{$smlg-device} {
         min-height: 600px;

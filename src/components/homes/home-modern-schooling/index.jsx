@@ -16,9 +16,8 @@ const index = () => {
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true}/>
                 <HeroArea/>
-                <BrandArea/>
+                 {/* <BrandArea/>  */}
                 <TopCategories/>
-                <Courses/>
                 <FaqArea/>
                 <CounterArea home_8={true}/>
                 <TestimonialArea/>
