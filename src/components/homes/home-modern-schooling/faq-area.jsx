@@ -33,7 +33,7 @@ const FaqArea = () => {
                     <div className="col-lg-6">
                         <div className="edu-faq-gallery">
                             <div className="faq-thumbnail thumbnail-1" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
-                                <img src="/assets/images/others/faq-5.webp" alt="Faq Images" />
+                                <img src="/assets/images/others/faq-5.jpg" alt="Faq Images" />
                             </div>
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene" data-sal-delay="500" data-sal="fade" data-sal-duration="200"
