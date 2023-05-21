@@ -4,7 +4,7 @@ import FooterSocial from "./component/footer-social";
 const footer_contents = {
     logoLight: '/assets/images/logo/logo-dark.png',
     logoDark: '/assets/images/logo/logo-white.png',
-    desc: 'Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.',
+    desc: 'אנחנו כאן זמינים עבורכם,',
     add: '70-80 Upper St Norwich NR2',
     call: '+01 123 5641 231',
     email: 'info@edublink.com',
@@ -69,14 +69,14 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                 <p className="description">{desc}</p>
                                 <div className="widget-information">
                                     <ul className="information-list">
-                                        <li><span>Add:</span>{add}</li>
-                                        <li><span>Call:</span><a href="tel:+011235641231">{call}</a></li>
-                                        <li><span>Email:</span><a href="mailto:info@edublink.com" rel="noreferrer" target="_blank">{email}</a></li>
+                                        {/* <li><span>Add:</span>{add}</li> */}
+                                        <li><span>התקשרו:</span><a href="tel: 050-7353157">050-7353157</a></li>
+                                        <li><span>אימייל:</span><a href="mailto:info@edublink.com" rel="noreferrer" target="_blank">kiglerr@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
+{/* 
                         {widgets.map((w, i) => (
                             <div key={i} className={`col-lg-${w.col} col-sm-6`}>
                                 <div className={`edu-footer-widget ${w.class}`}>
@@ -88,16 +88,16 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     </div>
                                 </div>
                             </div>
-                        ))}
+                        ))} */}
 
                         <div className="col-lg-4 col-md-6">
                             <div className="edu-footer-widget">
-                                <h4 className="widget-title">Contacts</h4>
+                                <h4 className="widget-title">צור קשר</h4>
                                 <div className="inner">
-                                    <p className="description">Enter your email address to register to our newsletter subscription</p>
+                                    <p className="description">הזן את האימייל ונחזור עלייך עם פרטים נוספים</p>
                                     <div className="input-group footer-subscription-form">
-                                        <input type="email" className="form-control" placeholder="Your email" />
-                                        <button className={`edu-btn ${dark_bg && !home_4?'btn-secondary':''} btn-medium`} type="button">Subscribe <i className="icon-4"></i></button>
+                                        <input type="email" className="form-control" placeholder="כתובת אימייל" />
+                                        <button className={`edu-btn ${dark_bg && !home_4?'btn-secondary':''} btn-medium`} type="button">שלח <i className="icon-4"></i></button>
                                     </div>
                                     <ul className="social-share icon-transparent">
                                         <FooterSocial/>

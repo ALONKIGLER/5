@@ -3,33 +3,31 @@ import Counter from '../../common/counter';
 
 const counter_data = [
     {
-        color: 'primary-color',
-        count: 29.3,
-        text: 'K',
-        title: 'Student Enrolled',
-        decimal: 1
+    color: 'primary-color',
+    count: 29.3,
+    title: 'תלמידים רשומים',
+    decimal: 1
     },
     {
-        color: 'secondary-color',
-        count: 32.4,
-        text: 'K',
-        title: 'Class Completed',
-        decimal: 1
+    color: 'secondary-color',
+    count: 32.4,
+    title: 'שיעורים הושלמו',
+    decimal: 1
     },
     {
-        color: 'extra02-color',
-        count: 100,
-        text: '%',
-        title: 'Satisfaction Rate'
+    color: 'extra02-color',
+    count: 100,
+    text: '%',
+    title: 'מדד שביעות רצון'
     },
     {
-        color: 'extra05-color',
-        count: 354,
-        text: '%',
-        title: 'Top Instructors',
-        border_none:'border-none'
+    color: 'extra05-color',
+    count: 354,
+    text: '%',
+    title: 'מדריכים מובילים',
+    border_none: 'border-none'
     }
-]
+    ]
 
 const CounterArea = () => {
     return (

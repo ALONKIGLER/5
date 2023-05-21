@@ -4,24 +4,24 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const accordion_items = [
     {
-        id: 'collapseOne', 
-        show: true, 
-        title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+    id: 'collapseOne',
+    show: true,
+    title: 'איך אני יכול ליצור קשר ישירות עם בית ספר?',
+    desc: 'לורם איפסום דולור סיט אמת קונסקטור אדיפיסינג אלית סד איאוס מוד אקס טמפור אינקידידונט לבורה דולורה מאגנה אליקו עד מינים איניאם.'
     },
     {
-        id: 'collapseTwo', 
-        show: false, 
-        title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+    id: 'collapseTwo',
+    show: false,
+    title: 'איך אני מוצא בית ספר במקום שאני רוצה ללמוד?',
+    desc: 'לורם איפסום דולור סיט אמת קונסקטור אדיפיסינג אלית סד איאוס מוד אקס טמפור אינקידידונט לבורה דולורה מאגנה אליקו עד מינים איניאם.'
     },
     {
-        id: 'collapseThree', 
-        show: false, 
-        title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+    id: 'collapseThree',
+    show: false,
+    title: 'איפה כדאי ללמוד בחו"ל?',
+    desc: 'לורם איפסום דולור סיט אמת קונסקטור אדיפיסינג אלית סד איאוס מוד אקס טמפור אינקידידונט לבורה דולורה מאגנה אליקו עד מינים איניאם.'
     }
-];
+    ];
 
 
 const FaqArea = () => {
@@ -61,8 +61,8 @@ const FaqArea = () => {
                     <div className="col-lg-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">FAQ’s</span>
-                                <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> Development</h2>
+                            <span className="pre-title">שאלות נפוצות</span>
+                                <h2 className="title">שיעורים ברמה הגבוהה ביותר <span className="color-secondary">פיתוח <br /> החשיבה</span> התכנותית</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
                             <div className="faq-accordion" id="faq-accordion">

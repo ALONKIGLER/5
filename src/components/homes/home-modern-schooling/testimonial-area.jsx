@@ -3,34 +3,34 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper';
 
 const testimonials = [
-    {
-        img: '/assets/images/testimonial/testimonial-05.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Ray Sanchez',
-        title: 'Student'
-    },
-    {
-        img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Thomas Lopez',
-        title: 'Designer'
-    },
-    {
-        img: '/assets/images/testimonial/testimonial-07.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Amber Page',
-        title: 'Developer'
-    },
-    {
-        img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
-        ratings: [1, 2, 3, 4, 5],
-        name: 'Thomas Lopez',
-        title: 'Designer'
-    }
+{
+img: '/assets/images/testimonial/testimonial-05.png',
+desc: 'המלצה על השיעורים: השיעורים מדהימים! אני מאוד מרוצה מהתוכן והשיטה ההורקטיבית שלהם. המורים מקצועיים ואדיבים. ממליץ בחום!',
+ratings: [1, 2, 3, 4, 5],
+name: 'ריי סאנצ׳ז',
+title: ' תלמיד כיתה ו'
+},
+{
+img: '/assets/images/testimonial/testimonial-06.png',
+desc: ' נהניתי מאוד להשתתף בשיעורים. התוכן מעניין ומועיל, והמדריכים מקצועיים ואדיבים. מומלץ בחום!',
+ratings: [1, 2, 3, 4, 5],
+name: 'תומס לופז',
+title: 'תלמיד כיתה ג'
+},
+{
+img: '/assets/images/testimonial/testimonial-07.png',
+desc: ' מערכת מדהימה! השיעורים מציעים ידע מקצועי ושיטות לימוד מותאמות אישית. אני מרגישה שהתקדמתי הרבה מאוד בתחום שבחרתי. מומלץ מאוד!',
+ratings: [1, 2, 3, 4, 5],
+name: 'עמבר פייג',
+title: ' תלמיד כיתה ו'
+},
+{
+img: '/assets/images/testimonial/testimonial-06.png',
+desc: ' השיעורים מציעים תוכן מגוון ומעניין. המדריכים מקצועיים וידידותיים. אני נהנה ללמוד וממליץ עליהם לכל מי שמחפש להתפתח בתחום.',
+ratings: [1, 2, 3, 4, 5],
+name: 'תומס לופז',
+title: ' תלמיד כיתה ד'
+}
 ];
 
 const TestimonialArea = () => {
@@ -39,15 +39,15 @@ const TestimonialArea = () => {
     return (
       <div className="testimonial-area-8 section-gap-equal">
             <div className="container edublink-animated-shape">
-                <div className="row justify-content-center">
-                    <div className="col-lg-6">
-                        <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                            <span className="pre-title">Testimonials</span>
-                            <h2 className="title">What Our Students <br /> Have To Say</h2>
-                            <span className="shape-line"><i className="icon-19"></i></span>
-                        </div>
-                    </div>
-                </div>
+            <div className="row justify-content-center">
+    <div className="col-lg-6">
+        <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+            <span className="pre-title">המלצות</span>
+            <h2 className="title">מה תלמידינו <br /> אומרים</h2>
+            <span className="shape-line"><i className="icon-19"></i></span>
+        </div>
+    </div>
+</div>
                 <Swiper
                     className="testimonial-activation swiper"
                     slidesPerView={1}
@@ -79,11 +79,11 @@ const TestimonialArea = () => {
                             <SwiperSlide key={i}>
                                 <div className="testimonial-slide">
                                     <div className="content">
-                                        <div className="author-info">
+                                        {/* <div className="author-info">
                                             <div className="thumb">
                                                 <img src={img} alt="Testimonial" />
                                             </div>
-                                        </div>
+                                        </div> */}
                                         <p>{desc}</p>
                                         <div className="rating-icon">
                                             {ratings.map(r => <i key={r} className="icon-23"></i>)}

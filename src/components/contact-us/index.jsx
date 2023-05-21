@@ -9,7 +9,7 @@ const index = () => {
     return (
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
-                <Header no_top_bar={true} />
+                {/* <Header no_top_bar={true} /> */}
                 <BreadcrumbThree title="Contact Us" subtitle="Contact Us" />
                 <ContactUsArea/>
                 <ContactMap/>

@@ -14,15 +14,15 @@ const index = () => {
     return (
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
-                <Header no_top_bar={true}/>
+                {/* <Header no_top_bar={true}/> */}
                 <HeroArea/>
                  {/* <BrandArea/>  */}
                 <TopCategories/>
-                <FaqArea/>
+                <FaqArea/>  
                 <CounterArea home_8={true}/>
                 <TestimonialArea/>
                 <AdBanner/>
-                <BlogArea/>
+                {/* <BlogArea/> */}
                 <Footer/>
             </div>
         </div>
